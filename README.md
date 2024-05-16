@@ -1,3 +1,4 @@
+Mariana Ortega Ramírez, m.ortegar@uniandes.edu.co , 202211233
 # Parcial2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.

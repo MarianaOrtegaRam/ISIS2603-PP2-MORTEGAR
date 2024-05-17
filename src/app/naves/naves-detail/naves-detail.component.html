@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ navesDetail.nombre }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+        <img
+          class="img-fluid"
+          src="{{ navesDetail.imagen }}"
+          alt="{{ navesDetail.nombre }}"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Fabricante</dt>
+        <dd>{{navesDetail.empresa_fabricacion}} </dd>
+        <dt>Raza origen</dt>
+        <dd>{{ navesDetail.raza_origen }}</dd>
+        <hr />
+        <dt>Costo</dt>
+        <dd>{{ navesDetail.costo }}</dd>
+        <hr />
+        <dt class="bold">Bando</dt>
+        <dd class="caption">{{ navesDetail.bando }}</dd>
+        <hr />
+        <dt class="bold">Description</dt>
+        <dd>{{ navesDetail.descripcion }}</dd>
+      </dl>
+    </div>
+  </div>
+ </div>
